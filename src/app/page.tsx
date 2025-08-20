@@ -42,31 +42,31 @@ export default function Home() {
     <div className="bg-gray-50">
       {/* Barra de Urgência */}
       <div className="bg-gradient-to-r from-red-600 to-red-800 text-white py-3 px-4 text-center font-bold text-sm md:text-base">
-        🚨 ÚLTIMA CHANCE: Garanta seu e-book antes que o preço suba! Apenas hoje por R$ 39,90!
+        🚨 OFERTA URGENTE: Seu maracujá não pode esperar! Elimine o trips HOJE por apenas R$ 39,90!
       </div>
       
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-800 via-green-700 to-green-600 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
-            SEU MARACUJÁ ESTÁ <span className="text-red-400">MORRENDO</span>?<br />
-            <span className="text-yellow-300">SALVE SUA LAVOURA HOJE!</span>
+            O TRIPS ESTÁ <span className="text-red-400">DESTRUINDO</span> SUA LAVOURA?<br />
+            <span className="text-yellow-300">ACABE COM ELE PARA SEMPRE!</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto font-medium">
-            Descubra como eliminar o trips de uma vez por todas com o <strong>Guia Prático</strong>, baseado na Embrapa, e recupere sua produtividade em semanas!
+            O método definitivo baseado na Embrapa para <strong>exterminar o trips em todas as fases</strong> e recuperar seus lucros em semanas!
           </p>
           
           {/* Storytelling Emocional */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8 max-w-4xl mx-auto">
             <p className="text-lg mb-4">
-              <strong>Imagine perder metade da sua colheita por uma praga invisível...</strong>
+              <strong>Cada flor que cai é dinheiro jogado fora...</strong>
             </p>
             <p className="text-lg mb-4">
-              Ver suas flores caindo, frutos deformados, manchas que destroem meses de trabalho...
+              Ver seus frutos deformados, manchados, invendáveis... enquanto o trips se multiplica silenciosamente dentro dos tecidos da sua planta.
             </p>
             <p className="text-xl font-bold text-yellow-300">
-              Agora imagine frutos perfeitos e seus lucros dobrando! 🍃✨
+              Agora imagine colher frutos PERFEITOS e lucrar 3x mais! 🍃💰
             </p>
           </div>
           
@@ -105,7 +105,7 @@ export default function Home() {
             className="inline-block bg-yellow-400 hover:bg-yellow-300 text-green-900 font-black text-xl md:text-2xl px-12 py-6 rounded-full animate-pulse transition-all duration-300 shadow-2xl"
             onClick={handleWhatsAppClick}
           >
-            🚀 QUERO SALVAR MINHA LAVOURA AGORA!
+            🚀 QUERO EXTERMINAR O TRIPS AGORA!
           </a>
           
           <p className="text-sm mt-4 opacity-90">✅ Acesso imediato via WhatsApp • ✅ Garantia de 7 dias</p>
@@ -116,14 +116,14 @@ export default function Home() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-black text-center mb-12 text-gray-800">
-            PARE DE SOFRER COM O TRIPS!
+            O TRIPS ESTÁ ACABANDO COM SEU DINHEIRO?
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             {/* Dores */}
             <div className="bg-red-50 border-l-8 border-red-500 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-red-700 mb-6 flex items-center">
-                😰 SEUS PROBLEMAS ATUAIS
+                💀 COMO O TRIPS ESTÁ TE ROUBANDO:
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -149,7 +149,7 @@ export default function Home() {
               </ul>
               <div className="mt-6 p-4 bg-red-100 rounded-lg">
                 <p className="text-red-800 font-bold text-center">
-                  💸 "Pare de ver seus frutos virarem prejuízo!"
+                  💸 "Seu dinheiro está caindo junto com suas flores!"
                 </p>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
             {/* Soluções */}
             <div className="bg-green-50 border-l-8 border-green-500 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-green-700 mb-6 flex items-center">
-                🎯 SUA NOVA REALIDADE
+                💚 SUA LAVOURA RENASCENDO:
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -183,7 +183,7 @@ export default function Home() {
               </ul>
               <div className="mt-6 p-4 bg-green-100 rounded-lg">
                 <p className="text-green-800 font-bold text-center">
-                  🌱 "Tenha uma colheita farta e lucrativa!"
+                  🌱 "Colha frutos PERFEITOS e pague todas as suas contas!"
                 </p>
               </div>
             </div>
@@ -212,14 +212,14 @@ export default function Home() {
             
             <div className="text-left">
               <h2 className="text-4xl font-black mb-6 text-gray-800">
-                O GUIA MAIS COMPLETO DO BRASIL
+                O ÚNICO GUIA QUE ATACA O TRIPS EM <span className="text-red-600">TODAS AS FASES</span>
               </h2>
               <p className="text-xl mb-6 text-gray-700">
-                <strong>Guia prático e ilustrado, direto ao ponto</strong>, desenvolvido com base nas pesquisas da Embrapa para você consultar a qualquer hora e salvar sua lavoura.
+                <strong>Quebre o ciclo completo do trips</strong> - ovos, larvas, pupas e adultos - com o método científico da Embrapa que produtores estão usando para recuperar suas lavouras.
               </p>
               <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-6">
                 <p className="text-yellow-800 font-semibold">
-                  💡 Tudo explicado em linguagem simples, direto da Embrapa!
+                  💡 Do ovo ao adulto: aprenda a destruir o trips em CADA fase do ciclo!
                 </p>
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function Home() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-black text-center mb-4 text-gray-800">
-            VEJA OS RESULTADOS DOS PRODUTORES
+            PRODUTORES ESTÃO <span className="text-green-600">VENCENDO</span> A GUERRA CONTRA O TRIPS
           </h2>
           <p className="text-center text-xl mb-12 text-gray-600">
             <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full font-bold">
@@ -325,7 +325,7 @@ export default function Home() {
       <section className="py-16 px-4 bg-green-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-black text-center mb-12 text-gray-800">
-            O QUE VOCÊ VAI APRENDER
+            <span className="text-red-600">ARMA-SE</span> CONTRA O TRIPS: O QUE VOCÊ VAI DOMINAR
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -333,32 +333,32 @@ export default function Home() {
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">1</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Identificar Espécies de Trips</h3>
-                  <p className="text-gray-600">Reconheça Frankliniella schultzei e F. occidentalis com precisão</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">DESCUBRA O INIMIGO: Identifique as Espécies</h3>
+                  <p className="text-gray-600">Reconheça Frankliniella schultzei e F. occidentalis - os vilões que destroem sua lavoura</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">2</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Controlar Todas as Fases</h3>
-                  <p className="text-gray-600">Elimine ovos, larvas, pupas e adultos de forma eficaz</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">DESTRUA O CICLO: Controle em Todas as Fases</h3>
+                  <p className="text-gray-600">Elimine ovos escondidos, larvas vorazes, pupas no solo e adultos voadores</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">3</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Monitorar com Precisão</h3>
-                  <p className="text-gray-600">Use inspeção visual, método da batida e armadilhas adesivas</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">MONITORE COM PRECISÃO: Nunca Mais se Pegue de Surpresa</h3>
+                  <p className="text-gray-600">Use inspeção visual, método da batida e armadilhas adesivas azuis</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">4</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Controle Químico Inteligente</h3>
-                  <p className="text-gray-600">Aplique rotação de MoA para evitar resistência</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">QUÍMICA INTELIGENTE: Acabe com a Resistência</h3>
+                  <p className="text-gray-600">Domine a rotação de MoA e pare de desperdiçar dinheiro com pesticidas ineficazes</p>
                 </div>
               </div>
             </div>
@@ -367,32 +367,32 @@ export default function Home() {
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">5</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Usar Aliados Naturais</h3>
-                  <p className="text-gray-600">Aproveite ácaros predadores e fungos entomopatogênicos</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">EXÉRCITO DE ALIADOS: Controle Biológico Poderoso</h3>
+                  <p className="text-gray-600">Solte ácaros predadores e fungos entomopatogênicos que devoram o trips</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">6</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Práticas Culturais</h3>
-                  <p className="text-gray-600">Implemente adubação equilibrada e cobertura morta</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">FORTALEÇA SUA DEFESA: Práticas Culturais Inteligentes</h3>
+                  <p className="text-gray-600">Use adubação equilibrada e cobertura morta para proteger sua lavoura 24/7</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">7</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Plano MIP Personalizado</h3>
-                  <p className="text-gray-600">Crie seu plano de Manejo Integrado de Pragas</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">SEU PLANO DE BATALHA: MIP Personalizado</h3>
+                  <p className="text-gray-600">Monte seu Manejo Integrado de Pragas e nunca mais perca dinheiro com trips</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">8</div>
                 <div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2">Prevenir Reinfestações</h3>
-                  <p className="text-gray-600">Mantenha sua lavoura livre do trips permanentemente</p>
+                  <h3 className="font-bold text-lg text-gray-800 mb-2">PROTEÇÃO PERMANENTE: Acabe com as Reinfestações</h3>
+                  <p className="text-gray-600">Mantenha sua lavoura livre do trips para sempre e colha sem medo</p>
                 </div>
               </div>
             </div>
@@ -404,10 +404,10 @@ export default function Home() {
       <section className="py-16 px-4 bg-gradient-to-br from-green-700 to-green-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-black mb-6">
-            NÃO DEIXE SEU MARACUJÁ MORRER!
+            NÃO PERMITA QUE O TRIPS <span className="text-red-400">DESTRUA</span> SEU TRABALHO!
           </h2>
           <p className="text-xl mb-8">
-            Comece hoje mesmo a transformar sua lavoura e garanta frutos perfeitos e lucros recordes!
+            Comece HOJE a guerra contra o trips e garanta frutos perfeitos que vão encher seu bolso!
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
@@ -428,10 +428,10 @@ export default function Home() {
             className="inline-block bg-yellow-400 hover:bg-yellow-300 text-green-900 font-black text-2xl px-16 py-8 rounded-full animate-pulse transition-all duration-300 shadow-2xl"
             onClick={handleWhatsAppClick}
           >
-            🚀 Compre Agora pelo Whatsapp!
+            🚀 QUERO GUERRA TOTAL CONTRA O TRIPS AGORA!
           </a>
           
-          <p className="text-sm mt-4 opacity-90">⚠️ Oferta por tempo limitado - Não perca esta oportunidade!</p>
+          <p className="text-sm mt-4 opacity-90">⚠️ PREÇO SOBE EM BREVE - Garanta já seu exército contra o trips!</p>
         </div>
       </section>
       
