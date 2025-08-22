@@ -49,24 +49,24 @@ export default function Home() {
       <section className="bg-gradient-to-br from-green-800 via-green-700 to-green-600 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
-            O TRIPS ESTÁ <span className="text-red-400">DESTRUINDO</span> SUA LAVOURA?<br />
-            <span className="text-yellow-300">ACABE COM ELE PARA SEMPRE!</span>
+            DESCUBRA O MÉTODO QUE <span className="text-yellow-300">ELIMINA O TRIPS</span> DA SUA LAVOURA<br />
+            <span className="text-red-400">EM APENAS 4 SEMANAS!</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto font-medium">
-            O método definitivo baseado na Embrapa para <strong>exterminar o trips em todas as fases</strong> e recuperar seus lucros em semanas!
+            Chega de controlar só o TRIPS adulto! Com nossa estratégia você vai <strong className="text-yellow-300">identificar cada fase do TRIPS</strong> e aplicar os <strong className="text-green-300">produtos corretos nos momentos exatos</strong> para um controle definitivo que recupera sua produção em 4 semanas!
           </p>
           
           {/* Storytelling Emocional */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8 max-w-4xl mx-auto">
             <p className="text-lg mb-4">
-              <strong>Cada flor que cai é dinheiro jogado fora...</strong>
+              <strong>Você aplica Produtos caros, mas o TRIPS volta sempre...</strong>
             </p>
             <p className="text-lg mb-4">
-              Ver seus frutos deformados, manchados, invendáveis... enquanto o trips se multiplica silenciosamente dentro dos tecidos da sua planta.
+              Enquanto você gasta dinheiro controlando só os adultos, os ovos e larvas estão se multiplicando silenciosamente. Cada flor que cai, cada fruto deformado é seu dinheiro indo embora.
             </p>
             <p className="text-xl font-bold text-yellow-300">
-              Agora imagine colher frutos PERFEITOS e lucrar 3x mais! 🍃💰
+              Agora imagine aplicar o produto certo na fase certa e colher frutos PERFEITOS que triplicam seu lucro! 🍃💰
             </p>
           </div>
           
@@ -105,7 +105,7 @@ export default function Home() {
             className="inline-block bg-yellow-400 hover:bg-yellow-300 text-green-900 font-black text-xl md:text-2xl px-12 py-6 rounded-full animate-pulse transition-all duration-300 shadow-2xl"
             onClick={handleWhatsAppClick}
           >
-            🚀 QUERO EXTERMINAR O TRIPS AGORA!
+            🚀 QUERO APRENDER O MÉTODO AGORA!
           </a>
           
           <p className="text-sm mt-4 opacity-90">✅ Acesso imediato via WhatsApp • ✅ Garantia de 7 dias</p>
@@ -116,40 +116,40 @@ export default function Home() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-black text-center mb-12 text-gray-800">
-            O TRIPS ESTÁ ACABANDO COM SEU DINHEIRO?
+            POR QUE SEU MÉTODO ATUAL <span className="text-red-600">NÃO FUNCIONA?</span>
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             {/* Dores */}
             <div className="bg-red-50 border-l-8 border-red-500 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-red-700 mb-6 flex items-center">
-                💀 COMO O TRIPS ESTÁ TE ROUBANDO:
+                💀 SEU ERRO QUE CUSTA DINHEIRO:
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-3">❌</span>
-                  <span className="text-gray-700"><strong>Perdas de até 50%</strong> na produção</span>
+                  <span className="text-gray-700"><strong>Só controla o TRIPS adulto</strong> - ovos e larvas continuam</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-3">❌</span>
-                  <span className="text-gray-700"><strong>Frutos deformados</strong> e manchados</span>
+                  <span className="text-gray-700"><strong>Aplica produto errado</strong> na fase errada</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-3">❌</span>
-                  <span className="text-gray-700"><strong>Flores caindo</strong> constantemente</span>
+                  <span className="text-gray-700"><strong>Reinfestação constante</strong> - o problema volta sempre</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-3">❌</span>
-                  <span className="text-gray-700"><strong>Viroses</strong> como endurecimento dos frutos</span>
+                  <span className="text-gray-700"><strong>Dinheiro jogado fora</strong> com Produtos ineficazes</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 font-bold mr-3">❌</span>
-                  <span className="text-gray-700"><strong>Gastos altos</strong> com pesticidas ineficazes</span>
+                  <span className="text-gray-700"><strong>Perde produção</strong> e lucro todo mês</span>
                 </li>
               </ul>
               <div className="mt-6 p-4 bg-red-100 rounded-lg">
                 <p className="text-red-800 font-bold text-center">
-                  💸 "Seu dinheiro está caindo junto com suas flores!"
+                  💸 "Você está financiando o TRIPS com seu próprio dinheiro!"
                 </p>
               </div>
             </div>
@@ -157,33 +157,33 @@ export default function Home() {
             {/* Soluções */}
             <div className="bg-green-50 border-l-8 border-green-500 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-green-700 mb-6 flex items-center">
-                💚 SUA LAVOURA RENASCENDO:
+                💚 A SOLUÇÃO INTELIGENTE:
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-3">✅</span>
-                  <span className="text-gray-700"><strong>Reduzir perdas em até 50%</strong></span>
+                  <span className="text-gray-700"><strong>Identifica todas as fases</strong> - ovos, larvas, pupas, adultos</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-3">✅</span>
-                  <span className="text-gray-700"><strong>Eliminar deformações</strong> e manchas</span>
+                  <span className="text-gray-700"><strong>Produto certo</strong> no momento exato</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-3">✅</span>
-                  <span className="text-gray-700"><strong>Prevenir viroses</strong> efetivamente</span>
+                  <span className="text-gray-700"><strong>Quebra o ciclo completo</strong> - sem reinfestação</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-3">✅</span>
-                  <span className="text-gray-700"><strong>Economizar</strong> com pulverizações inteligentes</span>
+                  <span className="text-gray-700"><strong>Economiza 90%</strong> em Produtos químicos</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 font-bold mr-3">✅</span>
-                  <span className="text-gray-700"><strong>Aumentar produtividade</strong> e lucro</span>
+                  <span className="text-gray-700"><strong>Recupera produção</strong> e triplica lucros</span>
                 </li>
               </ul>
               <div className="mt-6 p-4 bg-green-100 rounded-lg">
                 <p className="text-green-800 font-bold text-center">
-                  🌱 "Colha frutos PERFEITOS e pague todas as suas contas!"
+                  🌱 "Inteligência no controle = Dinheiro no bolso!"
                 </p>
               </div>
             </div>
@@ -212,14 +212,14 @@ export default function Home() {
             
             <div className="text-left">
               <h2 className="text-4xl font-black mb-6 text-gray-800">
-                O ÚNICO GUIA QUE ATACA O TRIPS EM <span className="text-red-600">TODAS AS FASES</span>
+                ESTE É O <span className="text-red-600">GUIA DEFINITIVO</span> QUE VOCÊ PRECISA
               </h2>
               <p className="text-xl mb-6 text-gray-700">
-                <strong>Quebre o ciclo completo do trips</strong> - ovos, larvas, pupas e adultos - com o método científico da Embrapa que produtores estão usando para recuperar suas lavouras.
+                <strong>O método passo a passo que revela exatamente</strong> como identificar cada fase do TRIPS e aplicar o tratamento correto no momento certo para eliminar o problema de vez.
               </p>
               <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-6">
                 <p className="text-yellow-800 font-semibold">
-                  💡 Do ovo ao adulto: aprenda a destruir o trips em CADA fase do ciclo!
+                  💡 Finalmente você vai aprender o método que quebra o ciclo completo do TRIPS!
                 </p>
               </div>
             </div>
@@ -231,11 +231,11 @@ export default function Home() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-black text-center mb-4 text-gray-800">
-            PRODUTORES ESTÃO <span className="text-green-600">VENCENDO</span> A GUERRA CONTRA O TRIPS
+            PRODUTORES QUE <span className="text-green-600">APRENDERAM O MÉTODO</span> ESTÃO COLHENDO FRUTOS PERFEITOS
           </h2>
           <p className="text-center text-xl mb-12 text-gray-600">
             <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full font-bold">
-              432 produtores já salvaram suas lavouras com este guia!
+              432 produtores já aplicaram este método e transformaram suas lavouras!
             </span>
           </p>
           
@@ -358,7 +358,7 @@ export default function Home() {
                 <div className="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">4</div>
                 <div>
                   <h3 className="font-bold text-lg text-gray-800 mb-2">QUÍMICA INTELIGENTE: Acabe com a Resistência</h3>
-                  <p className="text-gray-600">Domine a rotação de MoA e pare de desperdiçar dinheiro com pesticidas ineficazes</p>
+                  <p className="text-gray-600">Domine a rotação de MoA e pare de desperdiçar dinheiro com Produtos ineficazes</p>
                 </div>
               </div>
             </div>
@@ -404,10 +404,10 @@ export default function Home() {
       <section className="py-16 px-4 bg-gradient-to-br from-green-700 to-green-900 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-black mb-6">
-            NÃO PERMITA QUE O TRIPS <span className="text-red-400">DESTRUA</span> SEU TRABALHO!
+            AGORA É <span className="text-yellow-300">SUA VEZ</span> DE APRENDER O MÉTODO!
           </h2>
           <p className="text-xl mb-8">
-            Comece HOJE a guerra contra o trips e garanta frutos perfeitos que vão encher seu bolso!
+            Você já sabe o erro que está cometendo e conhece a solução. Comece HOJE a aplicar o método que vai eliminar o TRIPS de sua lavoura em 4 semanas!
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
@@ -415,9 +415,9 @@ export default function Home() {
               APENAS R$ 39,90
             </div>
             <div className="text-lg">
-              <p>✅ Acesso imediato via WhatsApp</p>
-              <p>✅ Garantia de 7 dias</p>
-              <p>✅ Suporte técnico</p>
+              <p>✅ Aprenda a identificar cada fase do TRIPS</p>
+              <p>✅ Saiba qual produto usar em cada momento</p>
+              <p>✅ Elimine o problema de vez em 4 semanas</p>
             </div>
           </div>
           
@@ -428,10 +428,10 @@ export default function Home() {
             className="inline-block bg-yellow-400 hover:bg-yellow-300 text-green-900 font-black text-2xl px-16 py-8 rounded-full animate-pulse transition-all duration-300 shadow-2xl"
             onClick={handleWhatsAppClick}
           >
-            🚀 QUERO GUERRA TOTAL CONTRA O TRIPS AGORA!
+            🚀 QUERO APRENDER O MÉTODO AGORA!
           </a>
           
-          <p className="text-sm mt-4 opacity-90">⚠️ PREÇO SOBE EM BREVE - Garanta já seu exército contra o trips!</p>
+          <p className="text-sm mt-4 opacity-90">⚠️ OFERTA POR TEMPO LIMITADO - Garanta já seu acesso ao método definitivo!</p>
         </div>
       </section>
       
