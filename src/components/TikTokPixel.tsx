@@ -50,7 +50,7 @@ function TikTokPixelContent() {
               firstScript.parentNode?.insertBefore(scriptElement, firstScript);
             };
 
-            ttq.load('D2HMSD3C77U9B02M0HMG');
+            ttq.load('D2L2MR3C77U9PLHEQBV0');
             ttq.page();
           })(window, document, 'ttq');
         } else {
