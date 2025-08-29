@@ -48,7 +48,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        {/* outros elementos do head, se necessário */}
         <Script
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           strategy="afterInteractive"
@@ -64,4 +63,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Toaster />
       </body>
     </html>
-});
+  );
+}
