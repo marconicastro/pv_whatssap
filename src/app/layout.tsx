@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
 import Script from "next/script";
+import { Toaster } from "@/components/ui/toaster";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -16,13 +19,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           async
           defer
         />
+        <Toaster />
         {children}
       </body>
     </html>
   );
-}import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+}
 import { Toaster } from "@/components/ui/toaster";
 import MetaPixel from "@/components/MetaPixel";
 import TikTokPixel from "@/components/TikTokPixel";
